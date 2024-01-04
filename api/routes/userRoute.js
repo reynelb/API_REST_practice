@@ -1,7 +1,7 @@
 const express = require('express');
 const { faker } = require('@faker-js/faker');
-const userServices = require('././../services/userServices');
-const validatorHandler = require('././../middlewares/validatorHandler');
+const userServices = require('../services/userServices');
+const validatorHandler = require('../middlewares/validatorHandler');
 const { createUserSchema, getOneUserSchema, updateUserSchema, deleteUserSchema } = require('../schemas/userSchema');
 
 const router = express.Router();
